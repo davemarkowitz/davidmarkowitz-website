@@ -37,6 +37,8 @@ body {
 a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
+a.highlight-link { color: var(--self-ref); font-weight: 600; }
+
 /* ---------- Header / nav ---------- */
 header.site-header {
   border-bottom: 1px solid var(--rule);
@@ -142,6 +144,7 @@ h2 {
 /* ---------- Social row ---------- */
 .social-row {
   display: flex;
+  justify-content: center;
   gap: 0.9rem;
   margin-top: 1.5rem;
 }
@@ -235,6 +238,45 @@ h2 {
 .legend .emotion i  { background: var(--emotion); }
 .legend .jargon i   { background: var(--jargon); }
 .legend .values i   { background: var(--values); }
+
+/* ---------- News list ---------- */
+.news-list {
+  list-style: none;
+  margin: 0 0 2.5rem;
+  padding: 0;
+  max-width: var(--max-w);
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.news-list li {
+  border-left: 3px solid var(--rule);
+  padding: 0.2rem 0 0.2rem 1.1rem;
+}
+.news-list .news-outlet {
+  display: block;
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  color: var(--ink);
+}
+.news-list p { margin: 0.25rem 0; color: var(--ink-soft); }
+.news-list a { font-size: 0.9rem; font-weight: 600; }
+
+.video-embed {
+  max-width: var(--max-w);
+  margin: 0.25rem 0 2.5rem;
+}
+.video-embed video {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--rule);
+  display: block;
+}
+.video-embed figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
 
 /* ---------- CV ---------- */
 .cv-actions {
