@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CV | David M. Markowitz</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:,">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <h1 class="site-title">David M. Markowitz</h1>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="cv.html" class="active">Curriculum Vitae</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <h1>Curriculum Vitae</h1>
+  <div class="prose">
+    <p>A full list of publications, courses, awards, and service.</p>
+  </div>
+
+  <div class="cv-actions">
+    <a class="btn" href="assets/cv.pdf" download>Download CV (PDF)</a>
+    <a class="btn secondary" href="assets/cv.pdf" target="_blank" rel="noopener">Open in new tab</a>
+  </div>
+
+  <div class="cv-embed">
+    <iframe src="assets/cv.pdf" title="David M. Markowitz CV"></iframe>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span>&copy; <span id="year"></span> David M. Markowitz</span>
+    <span>Michigan State University, Department of Communication</span>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
