@@ -2,9 +2,9 @@
 :root {
   --ink: #1a1d23;
   --ink-soft: #4a505c;
-  --paper: #fcfbf9;
+  --paper: #ffffff;
   --paper-raised: #ffffff;
-  --rule: #e4e0d8;
+  --rule: #e2e2e2;
   --accent: #8a3324;        /* muted brick red, echoes the old site's rule color */
   --accent-soft: #f4ece8;
 
