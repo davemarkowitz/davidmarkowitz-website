@@ -221,18 +221,6 @@ h2 {
   display: block;
 }
 
-.legend {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.1rem;
-  margin: 0 0 2.5rem;
-  font-size: 0.82rem;
-  color: var(--ink-soft);
-}
-.legend .self-ref { color: var(--self-ref); }
-.legend .emotion  { color: var(--emotion); }
-.legend .jargon   { color: var(--jargon); }
-.legend .values   { color: var(--values); }
 
 /* ---------- News list ---------- */
 .news-list {
