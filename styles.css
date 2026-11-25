@@ -229,15 +229,10 @@ h2 {
   font-size: 0.82rem;
   color: var(--ink-soft);
 }
-.legend span { display: inline-flex; align-items: center; gap: 0.4rem; }
-.legend i {
-  width: 10px; height: 10px; border-radius: 50%;
-  display: inline-block;
-}
-.legend .self-ref i { background: var(--self-ref); }
-.legend .emotion i  { background: var(--emotion); }
-.legend .jargon i   { background: var(--jargon); }
-.legend .values i   { background: var(--values); }
+.legend .self-ref { color: var(--self-ref); }
+.legend .emotion  { color: var(--emotion); }
+.legend .jargon   { color: var(--jargon); }
+.legend .values   { color: var(--values); }
 
 /* ---------- News list ---------- */
 .news-list {
