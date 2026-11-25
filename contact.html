@@ -37,11 +37,11 @@
     <p>For everything else, drop me a line below.</p>
   </div>
 
-  <form class="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-    <input type="hidden" name="form-name" value="contact">
-    <p style="display:none">
-      <label>Don't fill this out: <input name="bot-field"></label>
-    </p>
+  <form class="contact-form" method="POST" action="https://formsubmit.co/davidmmarkowitz@gmail.com">
+    <input type="hidden" name="_subject" value="New message from davidmarkowitz.org">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_next" value="https://davidmarkowitz-website.netlify.app/contact.html">
+    <input type="text" name="_honey" style="display:none">
     <input type="text" name="name" placeholder="Name *" required>
     <input type="email" name="email" placeholder="Email *" required>
     <input type="text" name="subject" placeholder="Subject">
