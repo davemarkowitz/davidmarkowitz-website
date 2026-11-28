@@ -170,8 +170,12 @@ h2 {
   font-size: 1.2rem;
   line-height: 1.85;
   max-width: var(--max-w);
-  margin: 0 0 1.25rem;
+  margin: 0.25rem 0 1.5rem;
+  padding: 1.25rem 1.5rem;
   color: var(--ink);
+  background: var(--accent-soft);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 4px 4px 0;
 }
 
 .annotated mark {
