@@ -7,6 +7,7 @@
   --rule: #e2e2e2;
   --accent: #8a3324;        /* muted brick red, echoes the old site's rule color */
   --accent-soft: #f4ece8;
+  --annotated-bg: #fdf6d8;  /* light yellow */
 
   --self-ref: #2b5fa8;      /* blue */
   --emotion: #b4483e;       /* rust */
@@ -173,9 +174,8 @@ h2 {
   margin: 0.25rem 0 1.5rem;
   padding: 1.25rem 1.5rem;
   color: var(--ink);
-  background: var(--accent-soft);
-  border-left: 3px solid var(--accent);
-  border-radius: 0 4px 4px 0;
+  background: var(--annotated-bg);
+  border-radius: 4px;
 }
 
 .annotated mark {
@@ -358,6 +358,7 @@ footer.site-footer {
     --rule: #33323a;
     --accent: #e08a73;
     --accent-soft: #2a211d;
+    --annotated-bg: #332c17;
   }
   .annotated mark .popover { background: #e8e6e1; color: #16151a; }
   .annotated mark .popover a { color: #8a3324; }
